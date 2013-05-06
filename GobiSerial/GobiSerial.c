@@ -154,6 +154,8 @@ int GobiResume( struct usb_interface * pIntf );
 /*=========================================================================*/
 static struct usb_device_id GobiVIDPIDTable[] =
 {
+   
+   { USB_DEVICE( 0x1199, 0x9013 ) },   // Gobi 3000 TP device
    { USB_DEVICE( 0x05c6, 0x920c ) },   // Gobi 3000 QDL device
    { USB_DEVICE( 0x05c6, 0x920d ) },   // Gobi 3000 Composite Device
    { USB_DEVICE( 0x03f0, 0x371d ) },   // Gobi 3000 HP un2430 Device
